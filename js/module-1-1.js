@@ -47,6 +47,7 @@ const shouldConfirm = false; */
 /*
  * Парс числа с Number.parseInt() и Number.parseFloat()
  */
+//ПЕРЕТВОРЮЄ РЯДОК НА ЧИСЛО З ПЕРШИГО СИМВОЛУ
 
 //let elementWidth = '50px';
 // elementWidth = Number.parseInt(elementWidth);
@@ -60,6 +61,7 @@ const shouldConfirm = false; */
  * - Метод число.toFixed(digits)
  * - Матрёшки на примере  console.log(Number(число.toFixed(digits)))
  */
+//ДЛЯ РОБОТИ З ГРОШИМА - ВІДСІКАЄ(НЕ ОКРУГЛЮЄ!!!) ВСЕ ДО ТОГО ЧИСЛА, ЩО В ДУЖКАХ
 //let salary = 1300.16472;
 // salary = Number(salary.toFixed(2));
 
@@ -194,12 +196,16 @@ const shouldConfirm = false; */
 // console.log(brand.slice(1).toLowerCase());
 
 //brand = brand[0] + brand.slice(1).toLowerCase();
+// SLICE (ВИРІЗАЄ ІНДЕКС НАПИСАНИЙ ТУТ)
 
 // console.log(brand);
-
+//brand[0]--ПІД ЯКИМ ІНДЕКСОМ СТОЇТЬ СИМВОЛ У РЯДКУ
+// РЯДОК[ІНДЕКС]
 /*
  * Поиск в строке с методом includes()
  */
+
+// INCLUDES ---- ПОВЕРТАЄ TRUE АБО FALSE
 //const blacklistedWord1 = 'спам';
 //const blacklistedWord2 = 'распродажа';
 
@@ -221,6 +227,7 @@ const shouldConfirm = false; */
  /*
  * Операторы сравнения
  */
+//ОПЕРАТОРИ ПОРІВНЯННЯ ПРИВОДЯТЬ ДО TRUE OR FALSE
 
 // console.log(15 < 3);
 
@@ -229,7 +236,7 @@ const shouldConfirm = false; */
  */
 
 // console.log('10' > 5);
-
+ // ПОВЕРТАЄ ХИБНЕ ЗНАЧЕННЯ, БО РІЗНІ ТИПИ
 /*
  * Операторы равенства (== и ===) и неравества (!= и !==)
  * ✅ «ВСЕГДА ИСПОЛЬЗУЕМ СТРОГОЕ РАВЕНСТВО (===) и НЕРАВЕНСТВО (!==)»
